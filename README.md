@@ -170,9 +170,9 @@ The expected result should be something like this:
 
 ### WebSocket Monitoring
 
-Many modern web pages use [`WebSockets`](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) for real-time communication with servers. `WebSockets` establish a persistent connection between the server and the browser so that the data can be exchanged continuously without the overhead of traditional HTTP requests.
+Many modern websites rely on [`WebSockets`](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) to maintain real-time communication with servers. Unlike traditional HTTP requests, `WebSockets` create a continuous connection between the browser and the server, enabling seamless data exchange without repeated handshakes.  
 
-Critical data frequently passes through these channels, making direct access essential for efficient data retrieval. By intercepting `WebSocket` communication, you can capture raw server-sent data in real time, bypassing the need for browser processing or page rendering.
+Since crucial data often flows through these channels, intercepting `WebSocket` traffic allows direct access to real-time server responses, eliminating the need for browser-based processing or rendering.
 
 Here are the attributes of a Selenium Wire `WebSocket` object:
 
