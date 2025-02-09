@@ -108,7 +108,7 @@ This code opens the target website and capture requests by using `driver.reques
 
 Here is the expected result:
 
-![Some of the logged requests](https://brightdata.com/wp-content/uploads/2025/01/image-98-1024x597.png)
+![Some of the logged requests](https://github.com/luminati-io/selenium-wire-web-scraping/blob/main/Images/image-98-1024x597.png)
 
 ### Intercept Requests and Responses
 
@@ -166,7 +166,7 @@ This is what this snippet does:
 
 The expected result should be something like this:
 
-![Note the X-Test-Header](https://brightdata.com/wp-content/uploads/2025/01/image-99-1024x538.png)
+![Note the X-Test-Header](https://github.com/luminati-io/selenium-wire-web-scraping/blob/main/Images/image-99-1024x538.png)
 
 ### WebSocket Monitoring
 
@@ -441,27 +441,27 @@ Manual proxy rotation in Selenium Wire involves a lot of boilerplate code and re
 
 If you already have an account, log in to Bright Data. Otherwise, create an account for free. You will gain access to the following user dashboard:
 
-![The Bright Data dashboard](https://brightdata.com/wp-content/uploads/2025/01/image-100-1024x498.png)
+![The Bright Data dashboard](https://github.com/luminati-io/selenium-wire-web-scraping/blob/main/Images/image-100-1024x498.png)
 
 Click the “View proxy products” button:
 
-![View proxy products](https://brightdata.com/wp-content/uploads/2025/01/image-101.png)
+![View proxy products](https://github.com/luminati-io/selenium-wire-web-scraping/blob/main/Images/image-101.png)
 
 You will be redirected to the “Proxies & Scraping Infrastructure” page below:
 
-![Configuring your residential proxies](https://brightdata.com/wp-content/uploads/2025/01/image-102-1024x483.png)
+![Configuring your residential proxies](https://github.com/luminati-io/selenium-wire-web-scraping/blob/main/Images/image-102-1024x483.png)
 
 Scroll down, find the “[Residential Proxies](/blog/proxy-101/ultimate-guide-to-proxy-types)” card, and click on the “Get started” button:
 
-![Residential proxies](https://brightdata.com/wp-content/uploads/2025/01/image-103.png)
+![Residential proxies](https://github.com/luminati-io/selenium-wire-web-scraping/blob/main/Images/image-103.png)
 
 You will reach the residential proxy configuration dashboard. Follow the guided wizard and set up the proxy service based on your needs.
 
-![Configuring your residential proxies](https://brightdata.com/wp-content/uploads/2025/01/image-104.png)
+![Configuring your residential proxies](https://github.com/luminati-io/selenium-wire-web-scraping/blob/main/Images/image-104.png)
 
 Go to the “Access parameters” tab and retrieve your proxy’s host, port, username, and password as follows:
 
-![access parameter](https://brightdata.com/wp-content/uploads/2025/01/image-105.png)
+![access parameter](https://github.com/luminati-io/selenium-wire-web-scraping/blob/main/Images/image-105.png)
 
 Note that the “Host” field already includes the port.
 
@@ -479,7 +479,7 @@ brd-customer-hl_4hgu8dwd-zone-residential:[email protected]:XXXXX
 
 Toggle “Active proxy,” follow the last instructions, and you are good to go!
 
-![Active proxy toggle](https://brightdata.com/wp-content/uploads/2025/01/image-106-1024x164.png)
+![Active proxy toggle](https://github.com/luminati-io/selenium-wire-web-scraping/blob/main/Images/image-106-1024x164.png)
 
 Here is the Selenium Wire proxy snippet for Bright Data integration:
 
